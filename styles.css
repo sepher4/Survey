@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#survey {
+    background-color: rgba(36,37,70,.9);
+    color: white;
+}
+
+.form-group {
+    padding: 15px 15px;
+    
+}
