@@ -1,5 +1,12 @@
+html {
+    box-shadow: inset 0 0 0 1000px rgba(63, 0, 103, 0.7);
+}
+
 body {
     font-family: sans-serif;
+    color: white;
+    text-shadow: 2px 2px 1px #000000;
+    background-image: url(https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=800);
 }
 
 #title {
@@ -8,10 +15,13 @@ body {
 
 #survey {
     background-color: rgba(36,37,70,.9);
-    color: white;
 }
 
 .form-group {
     padding: 15px 15px;
     
+}
+
+.small-text {
+    font-size: 70%;
 }
