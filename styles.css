@@ -1,5 +1,6 @@
 html {
-    box-shadow: inset 0 0 0 1000px rgba(63, 0, 103, 0.7);
+    box-shadow: inset 0 0 0 1000px rgba(69, 23, 97, 0.7);
+    min-height: 100vh;
 }
 
 body {
@@ -16,10 +17,14 @@ body {
 #survey {
     background-color: rgba(36,37,70,.9);
 }
+.disp-block input, .disp-block label {
+    width: 100%;
+    display: block;
+    
+}
 
 .form-group {
-    padding: 15px 15px;
-    
+    padding: 10px 15px;
 }
 
 .small-text {
