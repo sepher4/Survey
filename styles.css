@@ -19,17 +19,9 @@ body {
     background-color: rgba(36,37,70,.9);
 }
 .disp-block input, .disp-block label {
-    width: 100%;
+    width: 90%;
     display: block;
-    
-}
-
-.form-group {
-    padding: 10px 10px 0px 10px;
-}
-
-input {
-    width: 80;
+    margin: auto;
 }
 
 .small-text {
