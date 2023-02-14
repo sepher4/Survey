@@ -12,6 +12,7 @@ body {
 
 #title {
     text-align: center;
+    font-size: largest;
 }
 
 #survey {
@@ -24,7 +25,11 @@ body {
 }
 
 .form-group {
-    padding: 10px 15px;
+    padding: 10px 10px 0px 10px;
+}
+
+input {
+    width: 80;
 }
 
 .small-text {
