@@ -1,5 +1,5 @@
 html {
-    box-shadow: inset 0 0 0 1000px rgba(69, 23, 97, 0.7);
+    box-shadow: inset 0 0 0 1000px rgba(40, 20, 97, 0.7);
     min-height: 100vh;
 }
 
@@ -15,15 +15,35 @@ body {
     font-size: largest;
 }
 
-#survey {
-    background-color: rgba(36,37,70,.9);
-}
-.disp-block input, .disp-block label {
-    width: 90%;
+.disp-block input {
     display: block;
     margin: auto;
+    width: 99%;
+}
+
+div {
+    padding: 5px 0px 10px 0px;
+}
+
+#survey {
+    background-color: rgba(36,37,70,.9);
+    padding: 20px 10px;
 }
 
 .small-text {
     font-size: 70%;
+}
+
+#comments {
+    font-family: sans-serif;
+    width: 99%;
+    height: 90px;
+}
+
+#submit-btn {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    height: 30px;
+    background-color: palegreen;
 }
